@@ -1,4 +1,7 @@
-## Part 1: Constructing the Automotive Sales System
+# Challenge 2
+Create an automotive sales system.
+
+## Part 1
 - Define a Vehicle Class
   - Create a `Vehicle` class in a separate module. Attributes should include model, make, year, price, and discount. Include methods for setting and getting these attributes.
 - Vehicle Inventory
@@ -10,7 +13,7 @@
 - Iterating Over Vehicles
   - Implement a generator in the `Inventory` class that allows iteration over all vehicles, yielding one vehicle at a time.
 
-## Part 2: Integrating Advanced Concepts
+## Part 2
 - Parsing Vehicle Data
   - Create a module to parse vehicle data from a text file (you can provide a sample file with vehicle details). Use string formatting and file handling to read and process this data.
 - Creating Vehicle Instances
