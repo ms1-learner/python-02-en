@@ -9,7 +9,7 @@ This class should allow adding books, removing books, and retrieving the current
 
 ## Requirements
 - **Class Name**: `Library`
-- **API**:
+- **Interface**:
     - `add_book(title, author)`: Adds a new book.
     - `remove_book(title)`: Removes a book by title.
     - `retrieve_books()`: Returns a list of all books in the library.
