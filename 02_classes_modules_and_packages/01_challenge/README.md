@@ -27,7 +27,7 @@ for book in my_library.retrieve_books():
     print(book)
 ```
 
-# Expected outputs
+# Example Outputs
 
 ```sh
 {'title': '1984', 'author': 'George Orwell'}
