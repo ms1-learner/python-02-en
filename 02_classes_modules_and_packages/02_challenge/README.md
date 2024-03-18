@@ -4,7 +4,6 @@ Create an automotive sales system.
 ## Part 1
 - Define a Vehicle Class
   - Create a `Vehicle` class in a separate module. Attributes should include model, make, year, price, and discount. Include methods for setting and getting these attributes.
-  - You may want to implement `__str__` to organize how to print information about the instance.
 - Vehicle Inventory
   - Create an `Inventory` class that maintains a collection of `Vehicle` instances. Implement methods to add a vehicle and retrieve vehicles based on various criteria (e.g., make, year, price range).
 - Discount Application
@@ -42,8 +41,8 @@ inventory.apply_discount(lambda v: v.make == "Toyota", 5)
 toyotas = inventory.search_vehicles("Corolla")
 
 for toyota in toyotas:
-    print(toyota)
+    toyota.display()
 
 for vehicle in inventory.retrieve_vehicles():
-    print(vehicle)
+    vehicle.display()
 ```
