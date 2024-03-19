@@ -2,11 +2,11 @@
 Create the beginnings of a polymorphic vehicle system using an abstract base class, inheritance, and polymorphism.
 
 ## Requirements
-- Define `Vehicle` as an abstract class with a concrete implementation of a `get_details()` method and an additional abstract method `start_engine()`.
-- Vehicles should have `make`, `model`, and `year` instance variables.
+- Define `Vehicle` as an abstract class. It should have `make`, `model`, and `year` instance variables.
+- Include an abstract method `get_details()` in `Vehicle` that subclasses will implement to return vehicle-specific details.
 - Create at least two classes that inherit from `Vehicle` including `Car` and `Truck`.
-- Implement the abstract method from `Vehicle` in each subclass and extend the `get_details()` method to include specific details for each vehicle type using `super`.
 - For `Truck`, include at least one additional attribute including `towing_capacity`.
+- Implement `get_details()` in each subclass.
 - Implement a `display_vehicle_details` function that can process objects of any type derived from `Vehicle`.
 - Adhere to SOLID principles, ensuring your classes are well-structured and maintainable.
 
