@@ -12,7 +12,7 @@ This class should allow adding books, removing books, and retrieving the current
 - **Interface**:
     - `add_book(title, author)`: Adds a new book.
     - `remove_book(title)`: Removes a book by title.
-    - `retrieve_books()`: Returns a list of all books in the library.
+    - `retrieve_books()`: Returns a list of dictionaries that represents books in the library.
 
 ## Example Usage
 
@@ -25,4 +25,12 @@ for book in my_library.retrieve_books():
 my_library.remove_book("1984")
 for book in my_library.retrieve_books():
     print(book)
+```
+
+# Example Outputs
+
+```sh
+{'title': '1984', 'author': 'George Orwell'}
+{'title': 'To Kill a Mockingbird', 'author': 'Harper Lee'}
+{'title': 'To Kill a Mockingbird', 'author': 'Harper Lee'}
 ```
