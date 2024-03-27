@@ -12,7 +12,7 @@ This class should allow adding books, removing books, and retrieving the current
 - **Interface**:
     - `add_book(title, author)`: Adds a new book.
     - `remove_book(title)`: Removes a book by title.
-    - `retrieve_books()`: Returns a list of of dictionaries that represent books in the library.
+    - `retrieve_books()`: Returns a list of dictionaries that represents books in the library.
 
 ## Example Usage
 
